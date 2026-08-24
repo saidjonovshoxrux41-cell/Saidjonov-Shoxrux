@@ -1,10 +1,10 @@
 @media (max-width: 768px) {
-  /* Container chetki bo'shliqlari */
+
   .container {
     padding: 0 15px;
   }
 
-  /* Hero seksiyasi */
+
   .hero {
     padding: 40px 0;
   }
@@ -28,7 +28,6 @@
     justify-content: center;
   }
 
-  /* Hero rasmi moslashishi */
   .right img {
     width: 100%;
     max-width: 280px;
@@ -36,7 +35,6 @@
     aspect-ratio: 1 / 1;
   }
 
-  /* Section 1 (Statistika/Boxlar) */
   .sec1_content {
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
@@ -46,7 +44,6 @@
     font-size: 28px;
   }
 
-  /* Section 2 */
   .sec2 {
     padding: 40px 0;
   }
@@ -71,7 +68,6 @@
     height: auto;
   }
 
-  /* Section 3 (Kartochkalar va ularning rasmlari) */
   .sec3 {
     padding: 40px 0;
   }
@@ -91,14 +87,13 @@
     width: 100%;
   }
 
-  /* Rasm balandligini avto qilish */
+
   .box1 img {
     width: 100%;
     height: auto;
     max-height: 250px;
   }
 
-  /* Section 4 (Xizmatlar / Logotiplar) */
   .sec4 {
     padding: 40px 0;
   }
