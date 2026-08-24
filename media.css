@@ -1,52 +1,146 @@
-
-
 @media (max-width: 768px) {
-
+  /* Container chetki bo'shliqlari */
   .container {
+    padding: 0 15px;
+  }
+
+  /* Hero seksiyasi */
+  .hero {
+    padding: 40px 0;
+  }
+
+  .hero_content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .left h1 {
+    font-size: 32px;
+  }
+
+  .left .description {
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  .right {
+    justify-content: center;
+  }
+
+  /* Hero rasmi moslashishi */
+  .right img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+
+  /* Section 1 (Statistika/Boxlar) */
+  .sec1_content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .box h1 {
+    font-size: 28px;
+  }
+
+  /* Section 2 */
+  .sec2 {
+    padding: 40px 0;
+  }
+
+  .sec2_content {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .left1 h1 {
+    font-size: 28px;
+  }
+
+  .left1 h2 {
+    font-size: 18px;
+  }
+
+  .right1 img {
     width: 100%;
     max-width: 100%;
-    padding: 0 15px;
-    overflow: hidden; 
+    height: auto;
   }
 
-
-  img {
-    max-width: 100% !important;
-    height: auto !important;
-    object-fit: cover; 
-    display: block;
+  /* Section 3 (Kartochkalar va ularning rasmlari) */
+  .sec3 {
+    padding: 40px 0;
   }
 
+  .sec3 h1 {
+    font-size: 28px;
+    text-align: center;
+  }
 
-  .hero_content,
-  .sec2_content,
-  .sec3_content,
-  .sec5_content {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  .sec3_content {
+    grid-template-columns: 1fr;
     gap: 20px;
   }
-  .sec4_content {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 15px;
+
+  .box1 {
+    max-width: 100%;
     width: 100%;
   }
 
-  .left, .right, .left1, .right1, 
-  .left3, .box, .box1, .box2 {
-    width: 100% !important;
-    max-width: 100% !important;
-    box-sizing: border-box;
-  }
-
-  
-  .right img,
-  .right1 img,
+  /* Rasm balandligini avto qilish */
   .box1 img {
     width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
+    height: auto;
+    max-height: 250px;
+  }
+
+  /* Section 4 (Xizmatlar / Logotiplar) */
+  .sec4 {
+    padding: 40px 0;
+  }
+
+  .sec4 h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .sec4_content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .box2 {
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .box2 img {
+    width: 100%;
+    max-width: 140px;
+    height: auto;
+  }
+
+  /* Section 5 (Kontakt bo'limi) */
+  .sec5 {
+    padding: 40px 0;
+  }
+
+  .sec5 h1 {
+    font-size: 32px;
+  }
+
+  .sec5_content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .left3,
+  .right {
+    width: 100%;
+    padding: 20px;
   }
 }
