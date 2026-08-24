@@ -493,7 +493,7 @@ background:  rgba(0, 0, 0, 0.5);;
 }
 
 @media (max-width: 768px) {
-  /* Dynamic sizing and overflow prevention */
+
   *, *::before, *::after {
     box-sizing: border-box;
   }
@@ -508,7 +508,7 @@ background:  rgba(0, 0, 0, 0.5);;
     padding: 0 16px;
   }
 
-  /* ------------------- HERO SECTION ------------------- */
+
   .hero {
     padding: 40px 0;
   }
@@ -547,7 +547,7 @@ background:  rgba(0, 0, 0, 0.5);;
     object-fit: cover;
   }
 
-  /* ------------------- SECTION 1 (STATISTICS) ------------------- */
+
   .sec1 {
     padding: 40px 0;
   }
@@ -569,7 +569,7 @@ background:  rgba(0, 0, 0, 0.5);;
     font-size: 14px;
   }
 
-  /* ------------------- SECTION 2 (ABOUT / FEATURE) ------------------- */
+
   .sec2 {
     padding: 40px 0;
   }
@@ -599,7 +599,7 @@ background:  rgba(0, 0, 0, 0.5);;
     object-fit: cover;
   }
 
-  /* ------------------- SECTION 3 (CARDS GRID) ------------------- */
+
   .sec3 {
     padding: 40px 0;
   }
@@ -627,7 +627,7 @@ background:  rgba(0, 0, 0, 0.5);;
     object-fit: cover;
   }
 
-  /* ------------------- SECTION 4 (SERVICES / LOGOS) ------------------- */
+
   .sec4 {
     padding: 40px 0;
   }
@@ -644,7 +644,7 @@ background:  rgba(0, 0, 0, 0.5);;
   }
 
   .box2 {
-    width: 100% !important; /* Fixed width 200px override qilindi */
+    width: 100% !important; 
     padding: 20px 12px;
   }
 
@@ -663,7 +663,7 @@ background:  rgba(0, 0, 0, 0.5);;
     font-size: 13px;
   }
 
-  /* ------------------- SECTION 5 (CONTACT FORM) ------------------- */
+
   .sec5 {
     padding: 40px 0;
   }
