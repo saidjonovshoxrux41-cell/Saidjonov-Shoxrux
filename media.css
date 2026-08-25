@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+  .hero_content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .left .description {
+    margin: 0 auto;
+  }
+
+  .right img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    scale: 1;
+  }
+
+  .sec1_content,
+  .sec3_content,
+  .sec4_content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sec2_content,
+  .sec5_content {
+    flex-direction: column;
+  }
+
+  .box2 {
+    width: 100%;
+  }
+
+  .sec5 h1 {
+    font-size: 38px;
+  }
+}
